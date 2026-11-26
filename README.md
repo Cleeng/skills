@@ -34,8 +34,8 @@ Update later with `npx skills update`.
 
 ### Claude.ai
 
-1. Download `cleeng-migration-assistant.zip` from the [latest release](https://github.com/Cleeng/skills/releases/latest).
-2. In Claude.ai, open **Customize → Skills**, click **+**, choose **Upload a skill** and select the ZIP.
+1. Download `cleeng-migration-assistant.skill` from the [latest release](https://github.com/Cleeng/skills/releases/latest). The `.zip` next to it has the same content.
+2. In Claude.ai, open **Customize → Skills**, click **+**, choose **Upload a skill** and select the file.
 3. Start a new chat and say, for example, *"I need to migrate my subscribers from Recurly to Cleeng."*
 
 The migration assistant needs code execution, which Claude.ai turns on by default for skills.

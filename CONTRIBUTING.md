@@ -14,5 +14,5 @@ Cleeng staff maintain these skills. External contributions are not accepted yet;
 ## Releasing
 
 1. Set the new version in `.claude-plugin/marketplace.json`.
-2. Tag `vX.Y.Z` on `main` and push the tag. The release workflow creates a GitHub release with generated notes and one ZIP per skill for Claude.ai upload.
+2. Tag `vX.Y.Z` on `main` and push the tag. The release workflow creates a GitHub release with generated notes and a `.zip` and a `.skill` file per skill (same archive, two extensions).
 3. Edit the release notes on GitHub if the generated list needs context.
