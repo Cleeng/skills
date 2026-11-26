@@ -1,0 +1,156 @@
+{
+  "web-spa-direct": [
+    {
+      "rule": "AUTH-01",
+      "file": "src/api/core.ts",
+      "line": 6
+    },
+    {
+      "rule": "ENV-01",
+      "file": ".env.production",
+      "line": 1
+    },
+    {
+      "rule": "SESS-01",
+      "file": "src/App.tsx",
+      "line": 16
+    },
+    {
+      "rule": "SESS-02",
+      "file": "src/api/mediastore.ts",
+      "line": 27
+    },
+    {
+      "rule": "LOAD-02",
+      "file": "src/pages/Home.tsx",
+      "line": 7
+    },
+    {
+      "rule": "LOAD-02",
+      "file": "src/pages/Account.tsx",
+      "line": 7
+    },
+    {
+      "rule": "LOAD-05",
+      "file": "src/components/Player.tsx",
+      "line": 15
+    },
+    {
+      "rule": "ENT-01",
+      "file": "src/components/Player.tsx",
+      "line": 12
+    },
+    {
+      "rule": "RES-01",
+      "file": "src/api/mediastore.ts",
+      "line": 8
+    }
+  ],
+  "node-middleware": [
+    {
+      "rule": "AUTH-02",
+      "file": "src/config.js",
+      "line": 5
+    },
+    {
+      "rule": "AUTH-03",
+      "file": "src/middleware/auth.js",
+      "line": 8
+    },
+    {
+      "rule": "AUTH-05",
+      "file": "src/routes/sso.js",
+      "line": 11
+    },
+    {
+      "rule": "LOAD-03",
+      "file": "src/middleware/auth.js",
+      "line": 11
+    },
+    {
+      "rule": "LOAD-04",
+      "file": "src/cleeng.js",
+      "line": 13
+    },
+    {
+      "rule": "RES-01",
+      "file": "src/cleeng.js",
+      "line": 5
+    },
+    {
+      "rule": "RES-02",
+      "file": "src/cleeng.js",
+      "line": 10
+    },
+    {
+      "rule": "HOOK-02",
+      "file": "src/routes/webhooks.js",
+      "line": 12
+    },
+    {
+      "rule": "HOOK-03",
+      "file": "src/routes/webhooks.js",
+      "line": 21
+    },
+    {
+      "rule": "HOOK-04",
+      "file": "src/routes/webhooks.js",
+      "line": 18
+    },
+    {
+      "rule": "HOOK-05",
+      "file": "src/setup/registerWebhooks.js",
+      "line": 7
+    },
+    {
+      "rule": "ENV-02",
+      "file": "src/legacy/access.js",
+      "line": 5
+    }
+  ],
+  "android-iap": [
+    {
+      "rule": "SESS-03",
+      "file": "app/src/main/java/com/acme/tv/auth/TokenAuthenticator.kt",
+      "line": 16
+    },
+    {
+      "rule": "IAP-01",
+      "file": "app/src/main/java/com/acme/tv/billing/BillingManager.kt",
+      "line": 24
+    },
+    {
+      "rule": "IAP-02",
+      "file": "app/src/main/java/com/acme/tv/billing/BillingManager.kt",
+      "line": 45
+    },
+    {
+      "rule": "IAP-03",
+      "file": "app/src/main/java/com/acme/tv/billing/BillingManager.kt",
+      "line": 52
+    },
+    {
+      "rule": "IAP-05",
+      "file": "app/src/main/java/com/acme/tv/legacy/LegacyPayment.kt",
+      "line": 17
+    }
+  ],
+  "tvos-swift": [
+    {
+      "rule": "SESS-04",
+      "file": "AcmeTV/Session/SessionManager.swift",
+      "line": 8
+    },
+    {
+      "rule": "ENT-02",
+      "file": "AcmeTV/Browse/ShelfView.swift",
+      "line": 19
+    },
+    {
+      "rule": "ENT-03",
+      "file": "AcmeTV/Browse/ShelfView.swift",
+      "line": 16
+    }
+  ],
+  "clean-reference": []
+}
