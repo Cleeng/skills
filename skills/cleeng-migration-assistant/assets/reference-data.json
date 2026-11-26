@@ -1,0 +1,2431 @@
+{
+ "_comment": "Values the Cleeng user import accepts, and country defaults for locale, currency and timezone (timezones from tzdata zone.tab).",
+ "locales": [
+  "ar_AE",
+  "ca_ES",
+  "de_DE",
+  "el_GR",
+  "en_US",
+  "en_GB",
+  "es_ES",
+  "fi_FI",
+  "fr_FR",
+  "hu_HU",
+  "id_ID",
+  "it_IT",
+  "ja_JP",
+  "ko_KR",
+  "mn_MN",
+  "ms_MY",
+  "nb_NO",
+  "nl_NL",
+  "pl_PL",
+  "pt_BR",
+  "pt_PT",
+  "ru_RU",
+  "tr_TR",
+  "zh_CN"
+ ],
+ "currencies": [
+  "AUD",
+  "BRL",
+  "CAD",
+  "CHF",
+  "DKK",
+  "EUR",
+  "GBP",
+  "GHS",
+  "HUF",
+  "IDR",
+  "INR",
+  "JPY",
+  "KES",
+  "KRW",
+  "MNT",
+  "MXN",
+  "MYR",
+  "NGN",
+  "NOK",
+  "NZD",
+  "PHP",
+  "PLN",
+  "SEK",
+  "SGD",
+  "THB",
+  "TRY",
+  "TWD",
+  "USD",
+  "VND",
+  "XAF",
+  "XOF",
+  "ZAR"
+ ],
+ "timezones": [
+  "Africa/Abidjan",
+  "Africa/Accra",
+  "Africa/Addis_Ababa",
+  "Africa/Algiers",
+  "Africa/Asmara",
+  "Africa/Bamako",
+  "Africa/Bangui",
+  "Africa/Banjul",
+  "Africa/Bissau",
+  "Africa/Blantyre",
+  "Africa/Brazzaville",
+  "Africa/Bujumbura",
+  "Africa/Cairo",
+  "Africa/Casablanca",
+  "Africa/Ceuta",
+  "Africa/Conakry",
+  "Africa/Dakar",
+  "Africa/Dar_es_Salaam",
+  "Africa/Djibouti",
+  "Africa/Douala",
+  "Africa/El_Aaiun",
+  "Africa/Freetown",
+  "Africa/Gaborone",
+  "Africa/Harare",
+  "Africa/Johannesburg",
+  "Africa/Juba",
+  "Africa/Kampala",
+  "Africa/Khartoum",
+  "Africa/Kigali",
+  "Africa/Kinshasa",
+  "Africa/Lagos",
+  "Africa/Libreville",
+  "Africa/Lome",
+  "Africa/Luanda",
+  "Africa/Lubumbashi",
+  "Africa/Lusaka",
+  "Africa/Malabo",
+  "Africa/Maputo",
+  "Africa/Maseru",
+  "Africa/Mbabane",
+  "Africa/Mogadishu",
+  "Africa/Monrovia",
+  "Africa/Nairobi",
+  "Africa/Ndjamena",
+  "Africa/Niamey",
+  "Africa/Nouakchott",
+  "Africa/Ouagadougou",
+  "Africa/Porto-Novo",
+  "Africa/Sao_Tome",
+  "Africa/Tripoli",
+  "Africa/Tunis",
+  "Africa/Windhoek",
+  "America/Adak",
+  "America/Anchorage",
+  "America/Anguilla",
+  "America/Antigua",
+  "America/Araguaina",
+  "America/Argentina/Buenos_Aires",
+  "America/Argentina/Catamarca",
+  "America/Argentina/Cordoba",
+  "America/Argentina/Jujuy",
+  "America/Argentina/La_Rioja",
+  "America/Argentina/Mendoza",
+  "America/Argentina/Rio_Gallegos",
+  "America/Argentina/Salta",
+  "America/Argentina/San_Juan",
+  "America/Argentina/San_Luis",
+  "America/Argentina/Tucuman",
+  "America/Argentina/Ushuaia",
+  "America/Aruba",
+  "America/Asuncion",
+  "America/Atikokan",
+  "America/Bahia",
+  "America/Bahia_Banderas",
+  "America/Barbados",
+  "America/Belem",
+  "America/Belize",
+  "America/Blanc-Sablon",
+  "America/Boa_Vista",
+  "America/Bogota",
+  "America/Boise",
+  "America/Cambridge_Bay",
+  "America/Campo_Grande",
+  "America/Cancun",
+  "America/Caracas",
+  "America/Cayenne",
+  "America/Cayman",
+  "America/Chicago",
+  "America/Chihuahua",
+  "America/Ciudad_Juarez",
+  "America/Costa_Rica",
+  "America/Coyhaique",
+  "America/Creston",
+  "America/Cuiaba",
+  "America/Curacao",
+  "America/Danmarkshavn",
+  "America/Dawson",
+  "America/Dawson_Creek",
+  "America/Denver",
+  "America/Detroit",
+  "America/Dominica",
+  "America/Edmonton",
+  "America/Eirunepe",
+  "America/El_Salvador",
+  "America/Fort_Nelson",
+  "America/Fortaleza",
+  "America/Glace_Bay",
+  "America/Goose_Bay",
+  "America/Grand_Turk",
+  "America/Grenada",
+  "America/Guadeloupe",
+  "America/Guatemala",
+  "America/Guayaquil",
+  "America/Guyana",
+  "America/Halifax",
+  "America/Havana",
+  "America/Hermosillo",
+  "America/Indiana/Indianapolis",
+  "America/Indiana/Knox",
+  "America/Indiana/Marengo",
+  "America/Indiana/Petersburg",
+  "America/Indiana/Tell_City",
+  "America/Indiana/Vevay",
+  "America/Indiana/Vincennes",
+  "America/Indiana/Winamac",
+  "America/Inuvik",
+  "America/Iqaluit",
+  "America/Jamaica",
+  "America/Juneau",
+  "America/Kentucky/Louisville",
+  "America/Kentucky/Monticello",
+  "America/Kralendijk",
+  "America/La_Paz",
+  "America/Lima",
+  "America/Los_Angeles",
+  "America/Lower_Princes",
+  "America/Maceio",
+  "America/Managua",
+  "America/Manaus",
+  "America/Marigot",
+  "America/Martinique",
+  "America/Matamoros",
+  "America/Mazatlan",
+  "America/Menominee",
+  "America/Merida",
+  "America/Metlakatla",
+  "America/Mexico_City",
+  "America/Miquelon",
+  "America/Moncton",
+  "America/Monterrey",
+  "America/Montevideo",
+  "America/Montserrat",
+  "America/Nassau",
+  "America/New_York",
+  "America/Nome",
+  "America/Noronha",
+  "America/North_Dakota/Beulah",
+  "America/North_Dakota/Center",
+  "America/North_Dakota/New_Salem",
+  "America/Nuuk",
+  "America/Ojinaga",
+  "America/Panama",
+  "America/Paramaribo",
+  "America/Phoenix",
+  "America/Port-au-Prince",
+  "America/Port_of_Spain",
+  "America/Porto_Velho",
+  "America/Puerto_Rico",
+  "America/Punta_Arenas",
+  "America/Rankin_Inlet",
+  "America/Recife",
+  "America/Regina",
+  "America/Resolute",
+  "America/Rio_Branco",
+  "America/Santarem",
+  "America/Santiago",
+  "America/Santo_Domingo",
+  "America/Sao_Paulo",
+  "America/Scoresbysund",
+  "America/Sitka",
+  "America/St_Barthelemy",
+  "America/St_Johns",
+  "America/St_Kitts",
+  "America/St_Lucia",
+  "America/St_Thomas",
+  "America/St_Vincent",
+  "America/Swift_Current",
+  "America/Tegucigalpa",
+  "America/Thule",
+  "America/Tijuana",
+  "America/Toronto",
+  "America/Tortola",
+  "America/Vancouver",
+  "America/Whitehorse",
+  "America/Winnipeg",
+  "America/Yakutat",
+  "Antarctica/Casey",
+  "Antarctica/Davis",
+  "Antarctica/DumontDUrville",
+  "Antarctica/Macquarie",
+  "Antarctica/Mawson",
+  "Antarctica/McMurdo",
+  "Antarctica/Palmer",
+  "Antarctica/Rothera",
+  "Antarctica/Syowa",
+  "Antarctica/Troll",
+  "Antarctica/Vostok",
+  "Arctic/Longyearbyen",
+  "Asia/Aden",
+  "Asia/Almaty",
+  "Asia/Amman",
+  "Asia/Anadyr",
+  "Asia/Aqtau",
+  "Asia/Aqtobe",
+  "Asia/Ashgabat",
+  "Asia/Atyrau",
+  "Asia/Baghdad",
+  "Asia/Bahrain",
+  "Asia/Baku",
+  "Asia/Bangkok",
+  "Asia/Barnaul",
+  "Asia/Beirut",
+  "Asia/Bishkek",
+  "Asia/Brunei",
+  "Asia/Chita",
+  "Asia/Colombo",
+  "Asia/Damascus",
+  "Asia/Dhaka",
+  "Asia/Dili",
+  "Asia/Dubai",
+  "Asia/Dushanbe",
+  "Asia/Famagusta",
+  "Asia/Gaza",
+  "Asia/Hebron",
+  "Asia/Ho_Chi_Minh",
+  "Asia/Hong_Kong",
+  "Asia/Hovd",
+  "Asia/Irkutsk",
+  "Asia/Jakarta",
+  "Asia/Jayapura",
+  "Asia/Jerusalem",
+  "Asia/Kabul",
+  "Asia/Kamchatka",
+  "Asia/Karachi",
+  "Asia/Kathmandu",
+  "Asia/Khandyga",
+  "Asia/Kolkata",
+  "Asia/Krasnoyarsk",
+  "Asia/Kuala_Lumpur",
+  "Asia/Kuching",
+  "Asia/Kuwait",
+  "Asia/Macau",
+  "Asia/Magadan",
+  "Asia/Makassar",
+  "Asia/Manila",
+  "Asia/Muscat",
+  "Asia/Nicosia",
+  "Asia/Novokuznetsk",
+  "Asia/Novosibirsk",
+  "Asia/Omsk",
+  "Asia/Oral",
+  "Asia/Phnom_Penh",
+  "Asia/Pontianak",
+  "Asia/Pyongyang",
+  "Asia/Qatar",
+  "Asia/Qostanay",
+  "Asia/Qyzylorda",
+  "Asia/Riyadh",
+  "Asia/Sakhalin",
+  "Asia/Samarkand",
+  "Asia/Seoul",
+  "Asia/Shanghai",
+  "Asia/Singapore",
+  "Asia/Srednekolymsk",
+  "Asia/Taipei",
+  "Asia/Tashkent",
+  "Asia/Tbilisi",
+  "Asia/Tehran",
+  "Asia/Thimphu",
+  "Asia/Tokyo",
+  "Asia/Tomsk",
+  "Asia/Ulaanbaatar",
+  "Asia/Urumqi",
+  "Asia/Ust-Nera",
+  "Asia/Vientiane",
+  "Asia/Vladivostok",
+  "Asia/Yakutsk",
+  "Asia/Yangon",
+  "Asia/Yekaterinburg",
+  "Asia/Yerevan",
+  "Atlantic/Azores",
+  "Atlantic/Bermuda",
+  "Atlantic/Canary",
+  "Atlantic/Cape_Verde",
+  "Atlantic/Faroe",
+  "Atlantic/Madeira",
+  "Atlantic/Reykjavik",
+  "Atlantic/South_Georgia",
+  "Atlantic/St_Helena",
+  "Atlantic/Stanley",
+  "Australia/Adelaide",
+  "Australia/Brisbane",
+  "Australia/Broken_Hill",
+  "Australia/Darwin",
+  "Australia/Eucla",
+  "Australia/Hobart",
+  "Australia/Lindeman",
+  "Australia/Lord_Howe",
+  "Australia/Melbourne",
+  "Australia/Perth",
+  "Australia/Sydney",
+  "Europe/Amsterdam",
+  "Europe/Andorra",
+  "Europe/Astrakhan",
+  "Europe/Athens",
+  "Europe/Belgrade",
+  "Europe/Berlin",
+  "Europe/Bratislava",
+  "Europe/Brussels",
+  "Europe/Bucharest",
+  "Europe/Budapest",
+  "Europe/Busingen",
+  "Europe/Chisinau",
+  "Europe/Copenhagen",
+  "Europe/Dublin",
+  "Europe/Gibraltar",
+  "Europe/Guernsey",
+  "Europe/Helsinki",
+  "Europe/Isle_of_Man",
+  "Europe/Istanbul",
+  "Europe/Jersey",
+  "Europe/Kaliningrad",
+  "Europe/Kirov",
+  "Europe/Kyiv",
+  "Europe/Lisbon",
+  "Europe/Ljubljana",
+  "Europe/London",
+  "Europe/Luxembourg",
+  "Europe/Madrid",
+  "Europe/Malta",
+  "Europe/Mariehamn",
+  "Europe/Minsk",
+  "Europe/Monaco",
+  "Europe/Moscow",
+  "Europe/Oslo",
+  "Europe/Paris",
+  "Europe/Podgorica",
+  "Europe/Prague",
+  "Europe/Riga",
+  "Europe/Rome",
+  "Europe/Samara",
+  "Europe/San_Marino",
+  "Europe/Sarajevo",
+  "Europe/Saratov",
+  "Europe/Simferopol",
+  "Europe/Skopje",
+  "Europe/Sofia",
+  "Europe/Stockholm",
+  "Europe/Tallinn",
+  "Europe/Tirane",
+  "Europe/Ulyanovsk",
+  "Europe/Vaduz",
+  "Europe/Vatican",
+  "Europe/Vienna",
+  "Europe/Vilnius",
+  "Europe/Volgograd",
+  "Europe/Warsaw",
+  "Europe/Zagreb",
+  "Europe/Zurich",
+  "Indian/Antananarivo",
+  "Indian/Chagos",
+  "Indian/Christmas",
+  "Indian/Cocos",
+  "Indian/Comoro",
+  "Indian/Kerguelen",
+  "Indian/Mahe",
+  "Indian/Maldives",
+  "Indian/Mauritius",
+  "Indian/Mayotte",
+  "Indian/Reunion",
+  "Pacific/Apia",
+  "Pacific/Auckland",
+  "Pacific/Bougainville",
+  "Pacific/Chatham",
+  "Pacific/Chuuk",
+  "Pacific/Easter",
+  "Pacific/Efate",
+  "Pacific/Fakaofo",
+  "Pacific/Fiji",
+  "Pacific/Funafuti",
+  "Pacific/Galapagos",
+  "Pacific/Gambier",
+  "Pacific/Guadalcanal",
+  "Pacific/Guam",
+  "Pacific/Honolulu",
+  "Pacific/Kanton",
+  "Pacific/Kiritimati",
+  "Pacific/Kosrae",
+  "Pacific/Kwajalein",
+  "Pacific/Majuro",
+  "Pacific/Marquesas",
+  "Pacific/Midway",
+  "Pacific/Nauru",
+  "Pacific/Niue",
+  "Pacific/Norfolk",
+  "Pacific/Noumea",
+  "Pacific/Pago_Pago",
+  "Pacific/Palau",
+  "Pacific/Pitcairn",
+  "Pacific/Pohnpei",
+  "Pacific/Port_Moresby",
+  "Pacific/Rarotonga",
+  "Pacific/Saipan",
+  "Pacific/Tahiti",
+  "Pacific/Tarawa",
+  "Pacific/Tongatapu",
+  "Pacific/Wake",
+  "Pacific/Wallis",
+  "UTC"
+ ],
+ "countries": {
+  "AD": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Andorra"
+  },
+  "AE": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Dubai"
+  },
+  "AF": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Kabul"
+  },
+  "AG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Antigua"
+  },
+  "AI": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Anguilla"
+  },
+  "AL": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Tirane"
+  },
+  "AM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Yerevan"
+  },
+  "AO": {
+   "locale": "pt_PT",
+   "currency": null,
+   "timezone": "Africa/Luanda"
+  },
+  "AQ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Antarctica/McMurdo"
+  },
+  "AR": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Argentina/Buenos_Aires"
+  },
+  "AS": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Pago_Pago"
+  },
+  "AT": {
+   "locale": "de_DE",
+   "currency": "EUR",
+   "timezone": "Europe/Vienna"
+  },
+  "AU": {
+   "locale": "en_GB",
+   "currency": "AUD",
+   "timezone": "Australia/Sydney"
+  },
+  "AW": {
+   "locale": "nl_NL",
+   "currency": null,
+   "timezone": "America/Aruba"
+  },
+  "AX": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Mariehamn"
+  },
+  "AZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Baku"
+  },
+  "BA": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Sarajevo"
+  },
+  "BB": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Barbados"
+  },
+  "BD": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Dhaka"
+  },
+  "BE": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Europe/Brussels"
+  },
+  "BF": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Ouagadougou"
+  },
+  "BG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Sofia"
+  },
+  "BH": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Bahrain"
+  },
+  "BI": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Bujumbura"
+  },
+  "BJ": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Porto-Novo"
+  },
+  "BL": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "America/St_Barthelemy"
+  },
+  "BM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Atlantic/Bermuda"
+  },
+  "BN": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Brunei"
+  },
+  "BO": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/La_Paz"
+  },
+  "BQ": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "America/Kralendijk"
+  },
+  "BR": {
+   "locale": "pt_BR",
+   "currency": "BRL",
+   "timezone": "America/Sao_Paulo"
+  },
+  "BS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Nassau"
+  },
+  "BT": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Thimphu"
+  },
+  "BV": {
+   "locale": null,
+   "currency": "NOK",
+   "timezone": null
+  },
+  "BW": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Gaborone"
+  },
+  "BY": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Minsk"
+  },
+  "BZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Belize"
+  },
+  "CA": {
+   "locale": "en_US",
+   "currency": "CAD",
+   "timezone": "America/Toronto"
+  },
+  "CC": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Indian/Cocos"
+  },
+  "CD": {
+   "locale": "fr_FR",
+   "currency": null,
+   "timezone": "Africa/Kinshasa"
+  },
+  "CF": {
+   "locale": null,
+   "currency": "XAF",
+   "timezone": "Africa/Bangui"
+  },
+  "CG": {
+   "locale": "fr_FR",
+   "currency": "XAF",
+   "timezone": "Africa/Brazzaville"
+  },
+  "CH": {
+   "locale": "de_DE",
+   "currency": "CHF",
+   "timezone": "Europe/Zurich"
+  },
+  "CI": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Abidjan"
+  },
+  "CK": {
+   "locale": null,
+   "currency": "NZD",
+   "timezone": "Pacific/Rarotonga"
+  },
+  "CL": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Santiago"
+  },
+  "CM": {
+   "locale": "fr_FR",
+   "currency": "XAF",
+   "timezone": "Africa/Douala"
+  },
+  "CN": {
+   "locale": "zh_CN",
+   "currency": null,
+   "timezone": "Asia/Shanghai"
+  },
+  "CO": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Bogota"
+  },
+  "CR": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Costa_Rica"
+  },
+  "CU": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Havana"
+  },
+  "CV": {
+   "locale": "pt_PT",
+   "currency": null,
+   "timezone": "Atlantic/Cape_Verde"
+  },
+  "CW": {
+   "locale": "nl_NL",
+   "currency": null,
+   "timezone": "America/Curacao"
+  },
+  "CX": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Indian/Christmas"
+  },
+  "CY": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Asia/Nicosia"
+  },
+  "CZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Prague"
+  },
+  "DE": {
+   "locale": "de_DE",
+   "currency": "EUR",
+   "timezone": "Europe/Berlin"
+  },
+  "DJ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Djibouti"
+  },
+  "DK": {
+   "locale": null,
+   "currency": "DKK",
+   "timezone": "Europe/Copenhagen"
+  },
+  "DM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Dominica"
+  },
+  "DO": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Santo_Domingo"
+  },
+  "DZ": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Africa/Algiers"
+  },
+  "EC": {
+   "locale": "es_ES",
+   "currency": "USD",
+   "timezone": "America/Guayaquil"
+  },
+  "EE": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Tallinn"
+  },
+  "EG": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Africa/Cairo"
+  },
+  "EH": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/El_Aaiun"
+  },
+  "ER": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Asmara"
+  },
+  "ES": {
+   "locale": "es_ES",
+   "currency": "EUR",
+   "timezone": "Europe/Madrid"
+  },
+  "ET": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Addis_Ababa"
+  },
+  "FI": {
+   "locale": "fi_FI",
+   "currency": "EUR",
+   "timezone": "Europe/Helsinki"
+  },
+  "FJ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Fiji"
+  },
+  "FK": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Atlantic/Stanley"
+  },
+  "FM": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Pohnpei"
+  },
+  "FO": {
+   "locale": null,
+   "currency": "DKK",
+   "timezone": "Atlantic/Faroe"
+  },
+  "FR": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Europe/Paris"
+  },
+  "GA": {
+   "locale": "fr_FR",
+   "currency": "XAF",
+   "timezone": "Africa/Libreville"
+  },
+  "GB": {
+   "locale": "en_GB",
+   "currency": "GBP",
+   "timezone": "Europe/London"
+  },
+  "GD": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Grenada"
+  },
+  "GE": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Tbilisi"
+  },
+  "GF": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "America/Cayenne"
+  },
+  "GG": {
+   "locale": "en_GB",
+   "currency": "GBP",
+   "timezone": "Europe/Guernsey"
+  },
+  "GH": {
+   "locale": "en_GB",
+   "currency": "GHS",
+   "timezone": "Africa/Accra"
+  },
+  "GI": {
+   "locale": "en_GB",
+   "currency": null,
+   "timezone": "Europe/Gibraltar"
+  },
+  "GL": {
+   "locale": null,
+   "currency": "DKK",
+   "timezone": "America/Nuuk"
+  },
+  "GM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Banjul"
+  },
+  "GN": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Conakry"
+  },
+  "GP": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "America/Guadeloupe"
+  },
+  "GQ": {
+   "locale": null,
+   "currency": "XAF",
+   "timezone": "Africa/Malabo"
+  },
+  "GR": {
+   "locale": "el_GR",
+   "currency": "EUR",
+   "timezone": "Europe/Athens"
+  },
+  "GS": {
+   "locale": null,
+   "currency": "GBP",
+   "timezone": "Atlantic/South_Georgia"
+  },
+  "GT": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Guatemala"
+  },
+  "GU": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Guam"
+  },
+  "GW": {
+   "locale": null,
+   "currency": "XOF",
+   "timezone": "Africa/Bissau"
+  },
+  "GY": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Guyana"
+  },
+  "HK": {
+   "locale": "zh_CN",
+   "currency": null,
+   "timezone": "Asia/Hong_Kong"
+  },
+  "HM": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": null
+  },
+  "HN": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Tegucigalpa"
+  },
+  "HR": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Zagreb"
+  },
+  "HT": {
+   "locale": "fr_FR",
+   "currency": null,
+   "timezone": "America/Port-au-Prince"
+  },
+  "HU": {
+   "locale": "hu_HU",
+   "currency": "HUF",
+   "timezone": "Europe/Budapest"
+  },
+  "ID": {
+   "locale": "id_ID",
+   "currency": "IDR",
+   "timezone": "Asia/Jakarta"
+  },
+  "IE": {
+   "locale": "en_GB",
+   "currency": "EUR",
+   "timezone": "Europe/Dublin"
+  },
+  "IL": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Jerusalem"
+  },
+  "IM": {
+   "locale": "en_GB",
+   "currency": "GBP",
+   "timezone": "Europe/Isle_of_Man"
+  },
+  "IN": {
+   "locale": "en_GB",
+   "currency": "INR",
+   "timezone": "Asia/Kolkata"
+  },
+  "IO": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Indian/Chagos"
+  },
+  "IQ": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Baghdad"
+  },
+  "IR": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Tehran"
+  },
+  "IS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Atlantic/Reykjavik"
+  },
+  "IT": {
+   "locale": "it_IT",
+   "currency": "EUR",
+   "timezone": "Europe/Rome"
+  },
+  "JE": {
+   "locale": "en_GB",
+   "currency": "GBP",
+   "timezone": "Europe/Jersey"
+  },
+  "JM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Jamaica"
+  },
+  "JO": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Amman"
+  },
+  "JP": {
+   "locale": "ja_JP",
+   "currency": "JPY",
+   "timezone": "Asia/Tokyo"
+  },
+  "KE": {
+   "locale": "en_GB",
+   "currency": "KES",
+   "timezone": "Africa/Nairobi"
+  },
+  "KG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Bishkek"
+  },
+  "KH": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Phnom_Penh"
+  },
+  "KI": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Pacific/Tarawa"
+  },
+  "KM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Indian/Comoro"
+  },
+  "KN": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/St_Kitts"
+  },
+  "KP": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Pyongyang"
+  },
+  "KR": {
+   "locale": "ko_KR",
+   "currency": "KRW",
+   "timezone": "Asia/Seoul"
+  },
+  "KW": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Kuwait"
+  },
+  "KY": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Cayman"
+  },
+  "KZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Almaty"
+  },
+  "LA": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Vientiane"
+  },
+  "LB": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Beirut"
+  },
+  "LC": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/St_Lucia"
+  },
+  "LI": {
+   "locale": "de_DE",
+   "currency": "CHF",
+   "timezone": "Europe/Vaduz"
+  },
+  "LK": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Colombo"
+  },
+  "LR": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Monrovia"
+  },
+  "LS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Maseru"
+  },
+  "LT": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Vilnius"
+  },
+  "LU": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Europe/Luxembourg"
+  },
+  "LV": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Riga"
+  },
+  "LY": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Africa/Tripoli"
+  },
+  "MA": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Africa/Casablanca"
+  },
+  "MC": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Europe/Monaco"
+  },
+  "MD": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Chisinau"
+  },
+  "ME": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Podgorica"
+  },
+  "MF": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "America/Marigot"
+  },
+  "MG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Indian/Antananarivo"
+  },
+  "MH": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Majuro"
+  },
+  "MK": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Skopje"
+  },
+  "ML": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Bamako"
+  },
+  "MM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Yangon"
+  },
+  "MN": {
+   "locale": "mn_MN",
+   "currency": "MNT",
+   "timezone": "Asia/Ulaanbaatar"
+  },
+  "MO": {
+   "locale": "zh_CN",
+   "currency": null,
+   "timezone": "Asia/Macau"
+  },
+  "MP": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Saipan"
+  },
+  "MQ": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "America/Martinique"
+  },
+  "MR": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Nouakchott"
+  },
+  "MS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Montserrat"
+  },
+  "MT": {
+   "locale": "en_GB",
+   "currency": "EUR",
+   "timezone": "Europe/Malta"
+  },
+  "MU": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Indian/Mauritius"
+  },
+  "MV": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Indian/Maldives"
+  },
+  "MW": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Blantyre"
+  },
+  "MX": {
+   "locale": "es_ES",
+   "currency": "MXN",
+   "timezone": "America/Mexico_City"
+  },
+  "MY": {
+   "locale": "ms_MY",
+   "currency": "MYR",
+   "timezone": "Asia/Kuala_Lumpur"
+  },
+  "MZ": {
+   "locale": "pt_PT",
+   "currency": null,
+   "timezone": "Africa/Maputo"
+  },
+  "NA": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Windhoek"
+  },
+  "NC": {
+   "locale": "fr_FR",
+   "currency": null,
+   "timezone": "Pacific/Noumea"
+  },
+  "NE": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Niamey"
+  },
+  "NF": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Pacific/Norfolk"
+  },
+  "NG": {
+   "locale": "en_GB",
+   "currency": "NGN",
+   "timezone": "Africa/Lagos"
+  },
+  "NI": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Managua"
+  },
+  "NL": {
+   "locale": "nl_NL",
+   "currency": "EUR",
+   "timezone": "Europe/Amsterdam"
+  },
+  "NO": {
+   "locale": "nb_NO",
+   "currency": "NOK",
+   "timezone": "Europe/Oslo"
+  },
+  "NP": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Kathmandu"
+  },
+  "NR": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Pacific/Nauru"
+  },
+  "NU": {
+   "locale": null,
+   "currency": "NZD",
+   "timezone": "Pacific/Niue"
+  },
+  "NZ": {
+   "locale": "en_GB",
+   "currency": "NZD",
+   "timezone": "Pacific/Auckland"
+  },
+  "OM": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Muscat"
+  },
+  "PA": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Panama"
+  },
+  "PE": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Lima"
+  },
+  "PF": {
+   "locale": "fr_FR",
+   "currency": null,
+   "timezone": "Pacific/Tahiti"
+  },
+  "PG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Port_Moresby"
+  },
+  "PH": {
+   "locale": "en_US",
+   "currency": "PHP",
+   "timezone": "Asia/Manila"
+  },
+  "PK": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Karachi"
+  },
+  "PL": {
+   "locale": "pl_PL",
+   "currency": "PLN",
+   "timezone": "Europe/Warsaw"
+  },
+  "PM": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "America/Miquelon"
+  },
+  "PN": {
+   "locale": null,
+   "currency": "NZD",
+   "timezone": "Pacific/Pitcairn"
+  },
+  "PR": {
+   "locale": "en_US",
+   "currency": "USD",
+   "timezone": "America/Puerto_Rico"
+  },
+  "PS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Gaza"
+  },
+  "PT": {
+   "locale": "pt_PT",
+   "currency": "EUR",
+   "timezone": "Europe/Lisbon"
+  },
+  "PW": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Palau"
+  },
+  "PY": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Asuncion"
+  },
+  "QA": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Qatar"
+  },
+  "RE": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Indian/Reunion"
+  },
+  "RO": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Bucharest"
+  },
+  "RS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Belgrade"
+  },
+  "RU": {
+   "locale": "ru_RU",
+   "currency": null,
+   "timezone": "Europe/Moscow"
+  },
+  "RW": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Kigali"
+  },
+  "SA": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Riyadh"
+  },
+  "SB": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Guadalcanal"
+  },
+  "SC": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Indian/Mahe"
+  },
+  "SD": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Khartoum"
+  },
+  "SE": {
+   "locale": null,
+   "currency": "SEK",
+   "timezone": "Europe/Stockholm"
+  },
+  "SG": {
+   "locale": "en_GB",
+   "currency": "SGD",
+   "timezone": "Asia/Singapore"
+  },
+  "SH": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Atlantic/St_Helena"
+  },
+  "SI": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Ljubljana"
+  },
+  "SJ": {
+   "locale": null,
+   "currency": "NOK",
+   "timezone": "Arctic/Longyearbyen"
+  },
+  "SK": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Bratislava"
+  },
+  "SL": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Freetown"
+  },
+  "SM": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/San_Marino"
+  },
+  "SN": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Dakar"
+  },
+  "SO": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Mogadishu"
+  },
+  "SR": {
+   "locale": "nl_NL",
+   "currency": null,
+   "timezone": "America/Paramaribo"
+  },
+  "SS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Juba"
+  },
+  "ST": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Sao_Tome"
+  },
+  "SV": {
+   "locale": "es_ES",
+   "currency": "USD",
+   "timezone": "America/El_Salvador"
+  },
+  "SX": {
+   "locale": "nl_NL",
+   "currency": null,
+   "timezone": "America/Lower_Princes"
+  },
+  "SY": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Damascus"
+  },
+  "SZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Mbabane"
+  },
+  "TC": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "America/Grand_Turk"
+  },
+  "TD": {
+   "locale": null,
+   "currency": "XAF",
+   "timezone": "Africa/Ndjamena"
+  },
+  "TF": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Indian/Kerguelen"
+  },
+  "TG": {
+   "locale": "fr_FR",
+   "currency": "XOF",
+   "timezone": "Africa/Lome"
+  },
+  "TH": {
+   "locale": null,
+   "currency": "THB",
+   "timezone": "Asia/Bangkok"
+  },
+  "TJ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Dushanbe"
+  },
+  "TK": {
+   "locale": null,
+   "currency": "NZD",
+   "timezone": "Pacific/Fakaofo"
+  },
+  "TL": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Asia/Dili"
+  },
+  "TM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Ashgabat"
+  },
+  "TN": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Africa/Tunis"
+  },
+  "TO": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Tongatapu"
+  },
+  "TR": {
+   "locale": "tr_TR",
+   "currency": "TRY",
+   "timezone": "Europe/Istanbul"
+  },
+  "TT": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/Port_of_Spain"
+  },
+  "TV": {
+   "locale": null,
+   "currency": "AUD",
+   "timezone": "Pacific/Funafuti"
+  },
+  "TW": {
+   "locale": "zh_CN",
+   "currency": "TWD",
+   "timezone": "Asia/Taipei"
+  },
+  "TZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Dar_es_Salaam"
+  },
+  "UA": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Europe/Kyiv"
+  },
+  "UG": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Kampala"
+  },
+  "UM": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "Pacific/Midway"
+  },
+  "US": {
+   "locale": "en_US",
+   "currency": "USD",
+   "timezone": "America/New_York"
+  },
+  "UY": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Montevideo"
+  },
+  "UZ": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Asia/Tashkent"
+  },
+  "VA": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": "Europe/Vatican"
+  },
+  "VC": {
+   "locale": null,
+   "currency": null,
+   "timezone": "America/St_Vincent"
+  },
+  "VE": {
+   "locale": "es_ES",
+   "currency": null,
+   "timezone": "America/Caracas"
+  },
+  "VG": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "America/Tortola"
+  },
+  "VI": {
+   "locale": null,
+   "currency": "USD",
+   "timezone": "America/St_Thomas"
+  },
+  "VN": {
+   "locale": null,
+   "currency": "VND",
+   "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "VU": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Efate"
+  },
+  "WF": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Wallis"
+  },
+  "WS": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Pacific/Apia"
+  },
+  "XK": {
+   "locale": null,
+   "currency": "EUR",
+   "timezone": null
+  },
+  "YE": {
+   "locale": "ar_AE",
+   "currency": null,
+   "timezone": "Asia/Aden"
+  },
+  "YT": {
+   "locale": "fr_FR",
+   "currency": "EUR",
+   "timezone": "Indian/Mayotte"
+  },
+  "ZA": {
+   "locale": "en_GB",
+   "currency": "ZAR",
+   "timezone": "Africa/Johannesburg"
+  },
+  "ZM": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Lusaka"
+  },
+  "ZW": {
+   "locale": null,
+   "currency": null,
+   "timezone": "Africa/Harare"
+  }
+ },
+ "countryAliases": {
+  "abw": "AW",
+  "afg": "AF",
+  "afghanistan": "AF",
+  "ago": "AO",
+  "aia": "AI",
+  "ala": "AX",
+  "alb": "AL",
+  "albania": "AL",
+  "algeria": "DZ",
+  "america": "US",
+  "american samoa": "AS",
+  "and": "AD",
+  "andorra": "AD",
+  "angola": "AO",
+  "anguilla": "AI",
+  "antarctica": "AQ",
+  "antigua and barbuda": "AG",
+  "arab republic of egypt": "EG",
+  "are": "AE",
+  "arg": "AR",
+  "argentina": "AR",
+  "argentine republic": "AR",
+  "arm": "AM",
+  "armenia": "AM",
+  "aruba": "AW",
+  "asm": "AS",
+  "ata": "AQ",
+  "atf": "TF",
+  "atg": "AG",
+  "aus": "AU",
+  "australia": "AU",
+  "austria": "AT",
+  "aut": "AT",
+  "aze": "AZ",
+  "azerbaijan": "AZ",
+  "bahamas": "BS",
+  "bahrain": "BH",
+  "bangladesh": "BD",
+  "barbados": "BB",
+  "bdi": "BI",
+  "bel": "BE",
+  "belarus": "BY",
+  "belgium": "BE",
+  "belize": "BZ",
+  "ben": "BJ",
+  "benin": "BJ",
+  "bermuda": "BM",
+  "bes": "BQ",
+  "bfa": "BF",
+  "bgd": "BD",
+  "bgr": "BG",
+  "bhr": "BH",
+  "bhs": "BS",
+  "bhutan": "BT",
+  "bih": "BA",
+  "blm": "BL",
+  "blr": "BY",
+  "blz": "BZ",
+  "bmu": "BM",
+  "bol": "BO",
+  "bolivarian republic of venezuela": "VE",
+  "bolivia": "BO",
+  "bolivia plurinational state of": "BO",
+  "bonaire sint eustatius and saba": "BQ",
+  "bosnia and herzegovina": "BA",
+  "botswana": "BW",
+  "bouvet island": "BV",
+  "bra": "BR",
+  "brazil": "BR",
+  "brb": "BB",
+  "british indian ocean territory": "IO",
+  "british virgin islands": "VG",
+  "brn": "BN",
+  "brunei darussalam": "BN",
+  "btn": "BT",
+  "bulgaria": "BG",
+  "burkina faso": "BF",
+  "burundi": "BI",
+  "bvt": "BV",
+  "bwa": "BW",
+  "c te d ivoire": "CI",
+  "cabo verde": "CV",
+  "caf": "CF",
+  "cambodia": "KH",
+  "cameroon": "CM",
+  "can": "CA",
+  "canada": "CA",
+  "cayman islands": "KY",
+  "cck": "CC",
+  "central african republic": "CF",
+  "chad": "TD",
+  "che": "CH",
+  "chile": "CL",
+  "china": "CN",
+  "chl": "CL",
+  "chn": "CN",
+  "christmas island": "CX",
+  "civ": "CI",
+  "cmr": "CM",
+  "cocos keeling islands": "CC",
+  "cod": "CD",
+  "cog": "CG",
+  "cok": "CK",
+  "col": "CO",
+  "colombia": "CO",
+  "com": "KM",
+  "commonwealth of dominica": "DM",
+  "commonwealth of the bahamas": "BS",
+  "commonwealth of the northern mariana islands": "MP",
+  "comoros": "KM",
+  "congo": "CG",
+  "congo the democratic republic of the": "CD",
+  "cook islands": "CK",
+  "costa rica": "CR",
+  "cpv": "CV",
+  "cri": "CR",
+  "croatia": "HR",
+  "cub": "CU",
+  "cuba": "CU",
+  "cura ao": "CW",
+  "cuw": "CW",
+  "cxr": "CX",
+  "cym": "KY",
+  "cyp": "CY",
+  "cyprus": "CY",
+  "cze": "CZ",
+  "czech republic": "CZ",
+  "czechia": "CZ",
+  "democratic people s republic of korea": "KP",
+  "democratic republic of sao tome and principe": "ST",
+  "democratic republic of timor leste": "TL",
+  "democratic socialist republic of sri lanka": "LK",
+  "denmark": "DK",
+  "deu": "DE",
+  "dji": "DJ",
+  "djibouti": "DJ",
+  "dma": "DM",
+  "dnk": "DK",
+  "dom": "DO",
+  "dominica": "DM",
+  "dominican republic": "DO",
+  "dza": "DZ",
+  "eastern republic of uruguay": "UY",
+  "ecu": "EC",
+  "ecuador": "EC",
+  "egy": "EG",
+  "egypt": "EG",
+  "el salvador": "SV",
+  "england": "GB",
+  "equatorial guinea": "GQ",
+  "eri": "ER",
+  "eritrea": "ER",
+  "esh": "EH",
+  "esp": "ES",
+  "est": "EE",
+  "estonia": "EE",
+  "eswatini": "SZ",
+  "eth": "ET",
+  "ethiopia": "ET",
+  "falkland islands malvinas": "FK",
+  "faroe islands": "FO",
+  "federal democratic republic of ethiopia": "ET",
+  "federal democratic republic of nepal": "NP",
+  "federal republic of germany": "DE",
+  "federal republic of nigeria": "NG",
+  "federal republic of somalia": "SO",
+  "federated states of micronesia": "FM",
+  "federative republic of brazil": "BR",
+  "fiji": "FJ",
+  "fin": "FI",
+  "finland": "FI",
+  "fji": "FJ",
+  "flk": "FK",
+  "fra": "FR",
+  "france": "FR",
+  "french guiana": "GF",
+  "french polynesia": "PF",
+  "french republic": "FR",
+  "french southern territories": "TF",
+  "fro": "FO",
+  "fsm": "FM",
+  "gab": "GA",
+  "gabon": "GA",
+  "gabonese republic": "GA",
+  "gambia": "GM",
+  "gbr": "GB",
+  "geo": "GE",
+  "georgia": "GE",
+  "germany": "DE",
+  "ggy": "GG",
+  "gha": "GH",
+  "ghana": "GH",
+  "gib": "GI",
+  "gibraltar": "GI",
+  "gin": "GN",
+  "glp": "GP",
+  "gmb": "GM",
+  "gnb": "GW",
+  "gnq": "GQ",
+  "grand duchy of luxembourg": "LU",
+  "grc": "GR",
+  "grd": "GD",
+  "great britain": "GB",
+  "greece": "GR",
+  "greenland": "GL",
+  "grenada": "GD",
+  "grl": "GL",
+  "gtm": "GT",
+  "guadeloupe": "GP",
+  "guam": "GU",
+  "guatemala": "GT",
+  "guernsey": "GG",
+  "guf": "GF",
+  "guinea": "GN",
+  "guinea bissau": "GW",
+  "gum": "GU",
+  "guy": "GY",
+  "guyana": "GY",
+  "haiti": "HT",
+  "hashemite kingdom of jordan": "JO",
+  "heard island and mcdonald islands": "HM",
+  "hellenic republic": "GR",
+  "hkg": "HK",
+  "hmd": "HM",
+  "hnd": "HN",
+  "holland": "NL",
+  "holy see": "VA",
+  "holy see vatican city state": "VA",
+  "honduras": "HN",
+  "hong kong": "HK",
+  "hong kong special administrative region of china": "HK",
+  "hrv": "HR",
+  "hti": "HT",
+  "hun": "HU",
+  "hungary": "HU",
+  "iceland": "IS",
+  "idn": "ID",
+  "imn": "IM",
+  "ind": "IN",
+  "independent state of papua new guinea": "PG",
+  "independent state of samoa": "WS",
+  "india": "IN",
+  "indonesia": "ID",
+  "iot": "IO",
+  "iran": "IR",
+  "iran islamic republic of": "IR",
+  "iraq": "IQ",
+  "ireland": "IE",
+  "irl": "IE",
+  "irn": "IR",
+  "irq": "IQ",
+  "isl": "IS",
+  "islamic republic of afghanistan": "AF",
+  "islamic republic of iran": "IR",
+  "islamic republic of mauritania": "MR",
+  "islamic republic of pakistan": "PK",
+  "isle of man": "IM",
+  "isr": "IL",
+  "israel": "IL",
+  "ita": "IT",
+  "italian republic": "IT",
+  "italy": "IT",
+  "ivory coast": "CI",
+  "jam": "JM",
+  "jamaica": "JM",
+  "japan": "JP",
+  "jersey": "JE",
+  "jey": "JE",
+  "jor": "JO",
+  "jordan": "JO",
+  "jpn": "JP",
+  "kaz": "KZ",
+  "kazakhstan": "KZ",
+  "ken": "KE",
+  "kenya": "KE",
+  "kgz": "KG",
+  "khm": "KH",
+  "kingdom of bahrain": "BH",
+  "kingdom of belgium": "BE",
+  "kingdom of bhutan": "BT",
+  "kingdom of cambodia": "KH",
+  "kingdom of denmark": "DK",
+  "kingdom of eswatini": "SZ",
+  "kingdom of lesotho": "LS",
+  "kingdom of morocco": "MA",
+  "kingdom of norway": "NO",
+  "kingdom of saudi arabia": "SA",
+  "kingdom of spain": "ES",
+  "kingdom of sweden": "SE",
+  "kingdom of thailand": "TH",
+  "kingdom of the netherlands": "NL",
+  "kingdom of tonga": "TO",
+  "kir": "KI",
+  "kiribati": "KI",
+  "kna": "KN",
+  "kor": "KR",
+  "korea": "KR",
+  "korea democratic people s republic of": "KP",
+  "korea republic of": "KR",
+  "kosovo": "XK",
+  "kuwait": "KW",
+  "kwt": "KW",
+  "kyrgyz republic": "KG",
+  "kyrgyzstan": "KG",
+  "land islands": "AX",
+  "lao": "LA",
+  "lao people s democratic republic": "LA",
+  "laos": "LA",
+  "latvia": "LV",
+  "lbn": "LB",
+  "lbr": "LR",
+  "lby": "LY",
+  "lca": "LC",
+  "lebanese republic": "LB",
+  "lebanon": "LB",
+  "lesotho": "LS",
+  "liberia": "LR",
+  "libya": "LY",
+  "lie": "LI",
+  "liechtenstein": "LI",
+  "lithuania": "LT",
+  "lka": "LK",
+  "lso": "LS",
+  "ltu": "LT",
+  "lux": "LU",
+  "luxembourg": "LU",
+  "lva": "LV",
+  "mac": "MO",
+  "macao": "MO",
+  "macao special administrative region of china": "MO",
+  "macedonia the former yugoslav republic of": "MK",
+  "madagascar": "MG",
+  "maf": "MF",
+  "malawi": "MW",
+  "malaysia": "MY",
+  "maldives": "MV",
+  "mali": "ML",
+  "malta": "MT",
+  "mar": "MA",
+  "marshall islands": "MH",
+  "martinique": "MQ",
+  "mauritania": "MR",
+  "mauritius": "MU",
+  "mayotte": "YT",
+  "mco": "MC",
+  "mda": "MD",
+  "mdg": "MG",
+  "mdv": "MV",
+  "mex": "MX",
+  "mexico": "MX",
+  "mhl": "MH",
+  "micronesia federated states of": "FM",
+  "mkd": "MK",
+  "mli": "ML",
+  "mlt": "MT",
+  "mmr": "MM",
+  "mne": "ME",
+  "mng": "MN",
+  "mnp": "MP",
+  "moldova": "MD",
+  "moldova republic of": "MD",
+  "monaco": "MC",
+  "mongolia": "MN",
+  "montenegro": "ME",
+  "montserrat": "MS",
+  "morocco": "MA",
+  "moz": "MZ",
+  "mozambique": "MZ",
+  "mrt": "MR",
+  "msr": "MS",
+  "mtq": "MQ",
+  "mus": "MU",
+  "mwi": "MW",
+  "myanmar": "MM",
+  "mys": "MY",
+  "myt": "YT",
+  "nam": "NA",
+  "namibia": "NA",
+  "nauru": "NR",
+  "ncl": "NC",
+  "nepal": "NP",
+  "ner": "NE",
+  "netherlands": "NL",
+  "new caledonia": "NC",
+  "new zealand": "NZ",
+  "nfk": "NF",
+  "nga": "NG",
+  "nic": "NI",
+  "nicaragua": "NI",
+  "niger": "NE",
+  "nigeria": "NG",
+  "niu": "NU",
+  "niue": "NU",
+  "nld": "NL",
+  "nor": "NO",
+  "norfolk island": "NF",
+  "north korea": "KP",
+  "north macedonia": "MK",
+  "northern ireland": "GB",
+  "northern mariana islands": "MP",
+  "norway": "NO",
+  "npl": "NP",
+  "nru": "NR",
+  "nzl": "NZ",
+  "oman": "OM",
+  "omn": "OM",
+  "pak": "PK",
+  "pakistan": "PK",
+  "palau": "PW",
+  "palestine state of": "PS",
+  "pan": "PA",
+  "panama": "PA",
+  "papua new guinea": "PG",
+  "paraguay": "PY",
+  "pcn": "PN",
+  "people s democratic republic of algeria": "DZ",
+  "people s republic of bangladesh": "BD",
+  "people s republic of china": "CN",
+  "per": "PE",
+  "peru": "PE",
+  "philippines": "PH",
+  "phl": "PH",
+  "pitcairn": "PN",
+  "plurinational state of bolivia": "BO",
+  "plw": "PW",
+  "png": "PG",
+  "pol": "PL",
+  "poland": "PL",
+  "portugal": "PT",
+  "portuguese republic": "PT",
+  "pri": "PR",
+  "principality of andorra": "AD",
+  "principality of liechtenstein": "LI",
+  "principality of monaco": "MC",
+  "prk": "KP",
+  "prt": "PT",
+  "pry": "PY",
+  "pse": "PS",
+  "puerto rico": "PR",
+  "pyf": "PF",
+  "qat": "QA",
+  "qatar": "QA",
+  "r union": "RE",
+  "republic of albania": "AL",
+  "republic of angola": "AO",
+  "republic of armenia": "AM",
+  "republic of austria": "AT",
+  "republic of azerbaijan": "AZ",
+  "republic of belarus": "BY",
+  "republic of benin": "BJ",
+  "republic of bosnia and herzegovina": "BA",
+  "republic of botswana": "BW",
+  "republic of bulgaria": "BG",
+  "republic of burundi": "BI",
+  "republic of c te d ivoire": "CI",
+  "republic of cabo verde": "CV",
+  "republic of cameroon": "CM",
+  "republic of chad": "TD",
+  "republic of chile": "CL",
+  "republic of colombia": "CO",
+  "republic of costa rica": "CR",
+  "republic of croatia": "HR",
+  "republic of cuba": "CU",
+  "republic of cyprus": "CY",
+  "republic of djibouti": "DJ",
+  "republic of ecuador": "EC",
+  "republic of el salvador": "SV",
+  "republic of equatorial guinea": "GQ",
+  "republic of estonia": "EE",
+  "republic of fiji": "FJ",
+  "republic of finland": "FI",
+  "republic of ghana": "GH",
+  "republic of guatemala": "GT",
+  "republic of guinea": "GN",
+  "republic of guinea bissau": "GW",
+  "republic of guyana": "GY",
+  "republic of haiti": "HT",
+  "republic of honduras": "HN",
+  "republic of iceland": "IS",
+  "republic of india": "IN",
+  "republic of indonesia": "ID",
+  "republic of iraq": "IQ",
+  "republic of kazakhstan": "KZ",
+  "republic of kenya": "KE",
+  "republic of kiribati": "KI",
+  "republic of latvia": "LV",
+  "republic of liberia": "LR",
+  "republic of lithuania": "LT",
+  "republic of madagascar": "MG",
+  "republic of malawi": "MW",
+  "republic of maldives": "MV",
+  "republic of mali": "ML",
+  "republic of malta": "MT",
+  "republic of mauritius": "MU",
+  "republic of moldova": "MD",
+  "republic of mozambique": "MZ",
+  "republic of myanmar": "MM",
+  "republic of namibia": "NA",
+  "republic of nauru": "NR",
+  "republic of nicaragua": "NI",
+  "republic of north macedonia": "MK",
+  "republic of palau": "PW",
+  "republic of panama": "PA",
+  "republic of paraguay": "PY",
+  "republic of peru": "PE",
+  "republic of poland": "PL",
+  "republic of san marino": "SM",
+  "republic of senegal": "SN",
+  "republic of serbia": "RS",
+  "republic of seychelles": "SC",
+  "republic of sierra leone": "SL",
+  "republic of singapore": "SG",
+  "republic of slovenia": "SI",
+  "republic of south africa": "ZA",
+  "republic of south sudan": "SS",
+  "republic of suriname": "SR",
+  "republic of t rkiye": "TR",
+  "republic of tajikistan": "TJ",
+  "republic of the congo": "CG",
+  "republic of the gambia": "GM",
+  "republic of the marshall islands": "MH",
+  "republic of the niger": "NE",
+  "republic of the philippines": "PH",
+  "republic of the sudan": "SD",
+  "republic of trinidad and tobago": "TT",
+  "republic of tunisia": "TN",
+  "republic of uganda": "UG",
+  "republic of uzbekistan": "UZ",
+  "republic of vanuatu": "VU",
+  "republic of yemen": "YE",
+  "republic of zambia": "ZM",
+  "republic of zimbabwe": "ZW",
+  "reu": "RE",
+  "romania": "RO",
+  "rou": "RO",
+  "rus": "RU",
+  "russia": "RU",
+  "russian federation": "RU",
+  "rwa": "RW",
+  "rwanda": "RW",
+  "rwandese republic": "RW",
+  "saint barth lemy": "BL",
+  "saint helena ascension and tristan da cunha": "SH",
+  "saint kitts and nevis": "KN",
+  "saint lucia": "LC",
+  "saint martin french part": "MF",
+  "saint pierre and miquelon": "PM",
+  "saint vincent and the grenadines": "VC",
+  "samoa": "WS",
+  "san marino": "SM",
+  "sao tome and principe": "ST",
+  "sau": "SA",
+  "saudi arabia": "SA",
+  "scotland": "GB",
+  "sdn": "SD",
+  "sen": "SN",
+  "senegal": "SN",
+  "serbia": "RS",
+  "seychelles": "SC",
+  "sgp": "SG",
+  "sgs": "GS",
+  "shn": "SH",
+  "sierra leone": "SL",
+  "singapore": "SG",
+  "sint maarten dutch part": "SX",
+  "sjm": "SJ",
+  "slb": "SB",
+  "sle": "SL",
+  "slovak republic": "SK",
+  "slovakia": "SK",
+  "slovenia": "SI",
+  "slv": "SV",
+  "smr": "SM",
+  "socialist republic of viet nam": "VN",
+  "solomon islands": "SB",
+  "som": "SO",
+  "somalia": "SO",
+  "south africa": "ZA",
+  "south georgia and the south sandwich islands": "GS",
+  "south korea": "KR",
+  "south sudan": "SS",
+  "spain": "ES",
+  "spm": "PM",
+  "srb": "RS",
+  "sri lanka": "LK",
+  "ssd": "SS",
+  "state of israel": "IL",
+  "state of kuwait": "KW",
+  "state of qatar": "QA",
+  "stp": "ST",
+  "sudan": "SD",
+  "sultanate of oman": "OM",
+  "sur": "SR",
+  "suriname": "SR",
+  "svalbard and jan mayen": "SJ",
+  "svk": "SK",
+  "svn": "SI",
+  "swaziland": "SZ",
+  "swe": "SE",
+  "sweden": "SE",
+  "swiss confederation": "CH",
+  "switzerland": "CH",
+  "swz": "SZ",
+  "sxm": "SX",
+  "syc": "SC",
+  "syr": "SY",
+  "syria": "SY",
+  "syrian arab republic": "SY",
+  "t rkiye": "TR",
+  "taiwan": "TW",
+  "taiwan province of china": "TW",
+  "tajikistan": "TJ",
+  "tanzania": "TZ",
+  "tanzania united republic of": "TZ",
+  "tca": "TC",
+  "tcd": "TD",
+  "tgo": "TG",
+  "tha": "TH",
+  "thailand": "TH",
+  "the netherlands": "NL",
+  "the state of eritrea": "ER",
+  "the state of palestine": "PS",
+  "timor leste": "TL",
+  "tjk": "TJ",
+  "tkl": "TK",
+  "tkm": "TM",
+  "tls": "TL",
+  "togo": "TG",
+  "togolese republic": "TG",
+  "tokelau": "TK",
+  "ton": "TO",
+  "tonga": "TO",
+  "trinidad and tobago": "TT",
+  "tto": "TT",
+  "tun": "TN",
+  "tunisia": "TN",
+  "tur": "TR",
+  "turkey": "TR",
+  "turkiye": "TR",
+  "turkmenistan": "TM",
+  "turks and caicos islands": "TC",
+  "tuv": "TV",
+  "tuvalu": "TV",
+  "twn": "TW",
+  "tza": "TZ",
+  "uae": "AE",
+  "uga": "UG",
+  "uganda": "UG",
+  "uk": "GB",
+  "ukr": "UA",
+  "ukraine": "UA",
+  "umi": "UM",
+  "union of the comoros": "KM",
+  "united arab emirates": "AE",
+  "united kingdom": "GB",
+  "united kingdom of great britain and northern ireland": "GB",
+  "united mexican states": "MX",
+  "united republic of tanzania": "TZ",
+  "united states": "US",
+  "united states minor outlying islands": "UM",
+  "united states of america": "US",
+  "uruguay": "UY",
+  "ury": "UY",
+  "usa": "US",
+  "uzb": "UZ",
+  "uzbekistan": "UZ",
+  "vanuatu": "VU",
+  "vat": "VA",
+  "vct": "VC",
+  "ven": "VE",
+  "venezuela": "VE",
+  "venezuela bolivarian republic of": "VE",
+  "vgb": "VG",
+  "viet nam": "VN",
+  "vietnam": "VN",
+  "vir": "VI",
+  "virgin islands british": "VG",
+  "virgin islands of the united states": "VI",
+  "virgin islands u s": "VI",
+  "vnm": "VN",
+  "vut": "VU",
+  "wales": "GB",
+  "wallis and futuna": "WF",
+  "western sahara": "EH",
+  "wlf": "WF",
+  "wsm": "WS",
+  "yem": "YE",
+  "yemen": "YE",
+  "zaf": "ZA",
+  "zambia": "ZM",
+  "zimbabwe": "ZW",
+  "zmb": "ZM",
+  "zwe": "ZW"
+ }
+}

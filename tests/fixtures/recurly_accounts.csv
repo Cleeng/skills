@@ -1,0 +1,9 @@
+account_code,email,first_name,last_name,created_at,address.country,currency
+acc-1,anna@example.com,Anna,Nowak,2023-04-01T10:00:00Z,PL,PLN
+acc-2,bob@example.com,Bob,Smith,2023-05-02,US,USD
+acc-3,not-an-email,Carl,Jones,2023-05-03,GB,GBP
+acc-4,ANNA@example.com,Anna,Duplicate,2023-05-04,PL,PLN
+acc-5,dan@example.com,Dan,Brown,2023-05-05,,
+acc-6,eve@example.com,Eve,Martin,05/06/2023,CA,CAD
+acc-7,gina@example.com,Gina,Rejected,2023-05-07,,
+acc-8,gina@example.com,Gina,Kept,20230508,DE,

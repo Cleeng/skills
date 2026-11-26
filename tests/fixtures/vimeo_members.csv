@@ -1,0 +1,4 @@
+user_id,name,email,joined_date,last_login,location.country
+101,Maria Silva Santos,maria@example.com,2022-01-15,2024-11-01,Brazil
+102,Jean Dupont,jean@example.com,2022-02-15,,France
+103,Solo,solo@example.com,2022-03-15,,Atlantis

@@ -1,0 +1,24 @@
+{
+  "name": "cleeng",
+  "owner": {
+    "name": "Cleeng",
+    "url": "https://cleeng.com"
+  },
+  "metadata": {
+    "description": "Agent skills for publishers and integrators using Cleeng."
+  },
+  "plugins": [
+    {
+      "name": "cleeng",
+      "description": "Agent skills for publishers and integrators using Cleeng.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "license": "MIT",
+      "homepage": "https://github.com/Cleeng/skills",
+      "skills": [
+        "./skills/cleeng-migration-assistant"
+      ]
+    }
+  ]
+}
