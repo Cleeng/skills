@@ -36,7 +36,9 @@ class IntegrationReviewTest(unittest.TestCase):
             for item in findings:
                 self.assertIn(item["rule"], rules, f"{fixture}: unknown rule {item['rule']}")
                 lines = (FIXTURES / fixture / item["file"]).read_text(encoding="utf-8").splitlines()
-                self.assertTrue(lines[item["line"] - 1].strip(), f"{fixture}: {item['file']}:{item['line']} is blank")
+                where = f"{fixture}: {item['file']}:{item['line']}"
+                self.assertTrue(1 <= item["line"] <= len(lines), f"{where} is outside the file")
+                self.assertTrue(lines[item["line"] - 1].strip(), f"{where} is blank")
 
 
 if __name__ == "__main__":

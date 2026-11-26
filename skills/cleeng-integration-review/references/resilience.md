@@ -81,7 +81,7 @@ rg -n -e '429' -e 'MSSDK0002' -e 'Too many requests' -e 'Retry-After' -e 'TOO_MA
 **Judge.**
 
 - Confirmed: a 429 is retried immediately.
-- Likely: there is no branch for 429 or `MSSDK0002` anywhere, so a rate-limited viewer sees a generic error. Report this as Likely, with a note on which screens would break.
+- Likely: a Cleeng client or call path has no branch for 429 or `MSSDK0002`, so a rate-limited viewer sees a generic error. Judge each client and call path on its own: a 429 branch on one path does not cover another. Report this as Likely, with the paths and the screens that would break.
 
 **Why.** Retrying a 429 at once keeps the viewer over the limit and lengthens the lockout. MediaStore's 429 does not send `Retry-After`.
 

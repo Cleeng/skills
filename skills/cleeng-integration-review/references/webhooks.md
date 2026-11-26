@@ -42,7 +42,7 @@ rg -n -e '===' -e '!==' -e '==' <files with HMAC code>
 **Judge.**
 
 - Confirmed: the HMAC covers re-serialized JSON (`JSON.stringify(req.body)`, `json.dumps(request.json)`) instead of the raw bytes received.
-- Confirmed: the comparison uses `==`, `===`, `!==`, `equals` or string comparison.
+- Confirmed: the signature itself is compared with `==`, `===`, `!==`, `equals` or string comparison. A length check that guards a constant-time compare (`given.length === expected.length && timingSafeEqual(…)`) is fine.
 - Confirmed: the digest is hex or SHA-512. Cleeng sends base64 HMAC-SHA256.
 
 **Why.** Re-serialized JSON can differ from the bytes Cleeng signed, so valid events fail. A plain comparison leaks timing.
