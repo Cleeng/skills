@@ -27,4 +27,4 @@ CI also runs `npx skills-ref@0.1.5 validate skills/<name>`.
 - Skill scripts use the Python standard library only, take no interactive input, print JSON on stdout and errors on stderr.
 - Call scripts as `python3 scripts/x.py`, never `./scripts/x.py`; executable bits are lost when skills are served over MCP.
 - Keep SKILL.md under 500 lines. Move detail into `references/` and say in SKILL.md when to read each file.
-- Do not add a top-level `version` to SKILL.md frontmatter. The plugin version lives in `.claude-plugin/marketplace.json`; record changes in CHANGELOG.md.
+- Do not add a top-level `version` to SKILL.md frontmatter. The plugin version lives in `.claude-plugin/marketplace.json`; release notes live in GitHub releases.
